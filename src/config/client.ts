@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Angela Brenchley", rating: 5, text: "What started out as a garden clearance and maintenance job turned into a fairly comprehensive garden re-design.  Throughout Lou has been absolutely fantastic, and very patient with two people who know close to nothing.  Lou listened to our …  +7 ", date: "3 years ago" },
+    { name: "john boylan", rating: 5, text: "Louise has produced some wonderful designs. The work is so detailed and the back up support is fantastic. In fact Louise has given us three design options and our only issue is trying to decide between them as they are all so good. Exactly what we wa", date: "2 years ago" },
+    { name: "Dibs", rating: 5, text: "Louise did an excellent job on taming our very overgrown garden as well as a superb overhaul of our weed infested lawn which was more nettles than turf. She then put down new turf which rooted well and looks fantastic. …  ", date: "4 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
